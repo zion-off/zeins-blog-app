@@ -1,4 +1,6 @@
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
 
@@ -9,8 +11,9 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>App Component</h1>
+        <Home />
         {/* <h1> {title} </h1> */}
         {/* <p>Liked {likes} times</p> */}
         {/* <p>{ person }</p> -> this does not work because it is impossible to put an object inside the p tag*/}
